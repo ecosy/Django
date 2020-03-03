@@ -1,5 +1,6 @@
 from django.contrib import admin
-# from .models import
+from .models import Question, Choice
 
-# Register your models here.
-# admin.site.register(polls)
+admin.site.register(Question)
+admin.site.register(Choice)
+
